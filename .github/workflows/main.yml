@@ -34,7 +34,7 @@ jobs:
           # AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           # Required by Accurics
-          scan-mode: "scan"
+          scan-mode: "plan"
           app-id: ${{ secrets.ACCURICS_APP_ID }}
           env-id: ${{ secrets.ACCURICS_ENV_ID }}
           url: https://cloud.tenable.com/cns
